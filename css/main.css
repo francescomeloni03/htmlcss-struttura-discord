@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+header{
+    min-height: 755px;
+    background-color: #add8e6;
+    padding: 10px;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+.boxed{
+    background-color: #daa520;
+    max-width: 800px;
+    margin:  auto;
+    
+    
+    
+}
+
+.boxed1{
+   min-width: 160px;
+   border: 1px dashed black;
+
+    
+}
+
+#nav{
+    min-width: 480px;
+    text-align: center;
+    border: 1px dashed black;
+}
+
+.boxed3{
+    min-width: 160px;
+    text-align: end;
+    border: 1px dashed black;
+}
