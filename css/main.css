@@ -5,9 +5,9 @@
 }
 
 header{
-    min-height: 755px;
+    min-height: 275px;
     background-color: #add8e6;
-    padding: 10px;
+    
 }
 
 .flexcontainer{
@@ -44,4 +44,20 @@ header{
     min-width: 160px;
     text-align: end;
     border: 1px dashed black;
+}
+
+
+.boxblu{
+    background-color: #00008b;
+    min-height: 250px;
+    
+}
+
+#boxrosa{
+    background-color:pink;
+    min-height: 200px;
+    max-width: 500px;
+    margin: auto;
+    border: 1px dashed black;
+    
 }
