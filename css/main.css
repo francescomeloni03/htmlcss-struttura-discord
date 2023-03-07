@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+body{
+    background-color: #add8e6;
+}
 
 
 
@@ -25,7 +27,8 @@ header{
     background-color: #daa520;
     max-width: 800px;
     margin:  auto;    
-   
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .boxed1{
@@ -49,13 +52,20 @@ header{
 .boxblu{
     background-color: #00008b;
     min-height: 250px;
-    
+}
+
+
+.flexcontainer7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 23px;
 }
 
 #boxrosa{
     background-color:palevioletred;
     min-height: 200px;
-    max-width: 500px;
+    width: 500px;
     margin: auto;
     border: 1px dashed black;  
     
